@@ -2,8 +2,6 @@
 A full-stack Book Review Platform built using MongoDB, Express, React, Node.js (MERN).
 Users can sign up, log in, add books, and review books with ratings. This project demonstrates authentication, CRUD operations, and frontend-backend integration.
 
-https://img.shields.io/badge/MERN-Stack-brightgreen https://img.shields.io/badge/License-MIT-blue
-
 ## 📋 Table of Contents
 Features
 
@@ -23,9 +21,9 @@ Database Schema
 
 Contributing
 
-License
 
-✨ Features
+
+## ✨ Features
 User Authentication with JWT and bcrypt
 
 Book Management: Add/Edit/Delete books (creator only)
@@ -40,8 +38,8 @@ Protected Routes: Secure access for authenticated users
 
 Responsive Design: Works on all devices
 
-🛠 Tech Stack
-Backend:
+## 🛠 Tech Stack
+### Backend:
 Node.js - Runtime environment
 
 Express.js - Web framework
@@ -56,7 +54,7 @@ bcrypt - Password hashing
 
 CORS - Cross-origin resource sharing
 
-Frontend:
+### Frontend:
 React - UI library
 
 React Router - Client-side routing
