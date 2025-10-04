@@ -117,11 +117,6 @@ MongoDB Atlas account or local MongoDB installation
 npm or yarn
 
 Installation
-1. Clone the repository
-bash
-git clone https://github.com/yourusername/Books_World_Modified.git
-cd Books_World_Modified
-2. Backend Setup
 bash
 ## Navigate to backend directory
 cd backend
