@@ -2,7 +2,7 @@
 A full-stack Book Review Platform built using MongoDB, Express, React, Node.js (MERN).
 Users can sign up, log in, add books, and review books with ratings. This project demonstrates authentication, CRUD operations, and frontend-backend integration.
 
-## 📋 Table of Contents
+### 📋 Table of Contents
 Features
 
 Tech Stack
@@ -23,7 +23,7 @@ Contributing
 
 
 
-## ✨ Features
+### ✨ Features
 User Authentication with JWT and bcrypt
 
 Book Management: Add/Edit/Delete books (creator only)
@@ -38,7 +38,7 @@ Protected Routes: Secure access for authenticated users
 
 Responsive Design: Works on all devices
 
-## 🛠 Tech Stack
+### 🛠 Tech Stack
 ### Backend:
 Node.js - Runtime environment
 
@@ -68,7 +68,8 @@ React Bootstrap - Bootstrap components for React
 Database:
 MongoDB Atlas - Cloud database
 
-## 📁 Project Structure
+### 📁 Project Structure
+```bash
 text
 Books_World_Modified/
 ├── backend/
@@ -104,7 +105,10 @@ Books_World_Modified/
 │           ├── AddEditBook.js
 │           └── Profile.js
 └── README.md
-## 🚀 Getting Started
+```
+
+
+### 🚀 Getting Started
 Prerequisites
 Node.js (v14 or higher)
 
@@ -119,28 +123,28 @@ git clone https://github.com/yourusername/Books_World_Modified.git
 cd Books_World_Modified
 2. Backend Setup
 bash
-# Navigate to backend directory
+## Navigate to backend directory
 cd backend
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Create environment file
+## Create environment file
 cp .env.example .env
 
-# Start the development server
+## Start the development server
 npm run dev
 The backend server will run on http://localhost:5000
 
 3. Frontend Setup
 bash
-# Open a new terminal and navigate to frontend directory
+## Open a new terminal and navigate to frontend directory
 cd frontend
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Start the React development server
+## Start the React development server
 npm start
 The frontend will run on http://localhost:3000
 
