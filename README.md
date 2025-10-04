@@ -68,33 +68,16 @@ Books_World_Modified/
 └── README.md
 
 ```bash
-Copy code
-
----
-
-## Getting Started
-
-### Backend
-```bash
-cd backend
+##How to run this folder
+###Backend folder
+```
 npm install
-```bash
-```bash
-cp .env.example .env
-```bash
-
-```bash
-# Update .env with your MongoDB URI and JWT secret
 npm run dev
 ```bash
-Frontend
-```bash
-Copy code
-cd frontend
-npm install
-npm start
-```bash
-# Visit http://localhost:3000
-Backend Code Examples
 
-{ bookId, userId, rating, reviewText }
+###Frontend Folder
+
+```
+npm install 
+npm start
+```bash 
